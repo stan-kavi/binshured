@@ -151,6 +151,7 @@ a.blueBox {
 .greenBox {
   border: #B5CC57 solid 2px;
   border-radius: 5px;
+  margin-bottom: 20px;
 
   & h3 {
     color: #FF6701;
@@ -170,6 +171,120 @@ a.blueBox {
   & li {
     margin-bottom: 10px;
     color: #4A5F22;
+  }
+}
+
+.insuranceCalc {
+  border: #B5CC57 solid 2px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+
+  & h3 {
+    color: #FF6701;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    background-color: #E8F2D9;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  & ul {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+
+  & li {
+    margin-bottom: 10px;
+    color: #4A5F22;
+  }
+
+  & tr, td {
+    vertical-align: top;
+    font-size: 14px;
+  }
+
+  & .insuranceCalcButton {
+    text-align: center;
+  }
+
+}
+
+.insuranceFinal {
+
+  & input[type="text"],
+  & input[type="tel"],
+  & input[type="email"],
+  & select,
+  & textarea {
+    margin-left: 10px;
+    width: 80%;
+    margin-bottom: 5px;
+  }
+
+  & textarea {
+    margin-bottom: 0;
+  }
+}
+
+.button-65 {
+  margin-top: 10px;
+
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #0082D7;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 40px;
+  letter-spacing: normal;
+  line-height: 0.9;
+  outline: none;
+  overflow: hidden;
+  padding: 7px 15px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.button-65:hover {
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+.button-65:hover:after {
+  opacity: .5;
+}
+.button-65:active {
+  box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+.button-65:active:after {
+  opacity: 1;
+}
+@media (min-width: 768px) {
+  .button-65 {
+    padding: 14px 22px;
+    width: 176px;
   }
 }
 
