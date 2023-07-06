@@ -100,8 +100,7 @@ nav.asideNav {
   }
 
   & a {
-    background-color: #B5CC57;
-    color: #4A4A4A;
+    color: #000000;
 
     font-size: 18px;
     font-weight: 600;
